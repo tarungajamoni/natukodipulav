@@ -15,6 +15,7 @@ import Menu from "./components/Menu";
 import Contact from "./components/Contact";
 import SimpleChatbot from "./components/ChatBot";
 import { ChatBubbleLeftIcon } from "@heroicons/react/24/outline";
+import GoogleReview from './components/GoogleReview'
 
 function App() {
   const [isChatbotVisible, setIsChatbotVisible] = useState(false);
@@ -29,6 +30,7 @@ function App() {
       <About />
       <Contact />
       <Menu />
+      <GoogleReview />
       <div className="fixed bottom-4 right-4">
         <button
           onClick={toggleChatbot}
