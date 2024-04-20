@@ -45,6 +45,9 @@ function Header() {
                 <li className="scroll-to-section">
                   <a href="#reservation" onClick={() => scrollToSection('reservation')}>Contact Us</a>
                 </li>
+                <li className="scroll-to-section">
+                  <a href="#reviews" onClick={() => scrollToSection('reviews')}>Guest Reviews</a>
+                </li>
               </ul>
             </nav>
           </div>

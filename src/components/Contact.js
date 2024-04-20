@@ -20,7 +20,7 @@ function Contact() {
                       <i className="fa fa-phone" />
                       <h4>Phone Number</h4>
                       <span>
-                        <a href="#">9000-080-285</a>
+                        <a href="tel:9000080285">9000-080-285</a>
                       </span>
                       <span>
                         <br />
@@ -33,7 +33,7 @@ function Contact() {
                       <i className="fa fa-envelope" />
                       <h4>Email</h4>
                       <span>
-                        <a href="#">natukodipulav1@gmail.com</a>
+                        <a href="mailto:natukodipulav1@gmail.com">natukodipulav1@gmail.com</a>
                       </span>
                       <span>
                         <br />
@@ -54,6 +54,7 @@ function Contact() {
                       <span>
                         <a
                           href="https://maps.app.goo.gl/8NmPsNvqa88NpMiC7"
+                          rel="noreferrer"
                           target="_blank"
                         >
                           Srisailam Highway, Amangal, Rangareddy-509321
