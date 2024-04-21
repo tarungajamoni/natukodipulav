@@ -123,7 +123,7 @@ function SimpleChatbot() {
     },
     {
       id: "Menu",
-      message: "Our menu is just a click away! Visit our website for a tantalizing preview.",
+      message: "Our menu is just a click away! Visit our google business profile for a tantalizing preview.",
       trigger: "Yes/No",
     },
     {

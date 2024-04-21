@@ -33,8 +33,7 @@ function App() {
       <div className="fixed bottom-4 right-4" style={{zIndex: "9999"}}>
         <button
           onClick={toggleChatbot}
-          className="bg-blue-500 p-3 rounded-full text-white"          
-        >
+          className="bg-amber-400 p-3 rounded-full text-white">
           <ChatBubbleLeftIcon className="h-8 w-8"/>
         </button>
       </div>
