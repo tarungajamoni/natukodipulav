@@ -74,30 +74,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-# To Deploy in GitHub Pages
+## To Deploy in GitHub Pages
 
-## Add GitHub Pages dependency packages
+### Add GitHub Pages dependency packages
 
-### npm install gh-pages --save-dev
-
-
-## Add the below properties to the package.json file
-
-### "homepage": "https://<Username>.github.io/<Repository-name>"
-
-### "scripts":{
-###    "predeploy": "npm run build",
-###    "deploy": "gh-pages -d build" 
-###    }
+ npm install gh-pages --save-dev
 
 
-## Push the code to the branch
+### Add the below properties to the package.json file
 
-### git add .
-### git commit -m "commit"
-### git push
+ "homepage": "https://<Username>.github.io/<Repository-name>"
+
+ "scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
+   }
 
 
-## Deploy the Application
+### Push the code to the branch
 
-### npm run deploy
+ git add .
+ git commit -m "commit"
+ git push
+
+
+### Deploy the Application
+
+ npm run deploy
