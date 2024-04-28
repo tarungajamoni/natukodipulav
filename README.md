@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm i`
 
-Installs node modules required to run the application.\
+Installs node modules required to run the application.
 
 ### `npm start`
 
@@ -72,3 +72,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# To Deploy in GitHub Pages
+
+## Add GitHub Pages dependency packages
+
+### npm install gh-pages --save-dev
+
+
+## Add the below properties to the package.json file
+
+### "homepage": "https://<Username>.github.io/<Repository-name>"
+
+### "scripts":{
+###    "predeploy": "npm run build",
+###    "deploy": "gh-pages -d build" 
+###    }
+
+
+## Push the code to the branch
+
+### git add .
+### git commit -m "commit"
+### git push
+
+
+## Deploy the Application
+
+### npm run deploy
