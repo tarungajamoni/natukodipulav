@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/natukodipulav/static/css/main.d822e2ac.css",
-    "main.js": "/natukodipulav/static/js/main.f399d28d.js",
+    "main.js": "/natukodipulav/static/js/main.e26c5094.js",
     "static/js/453.a92a3f22.chunk.js": "/natukodipulav/static/js/453.a92a3f22.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/natukodipulav/static/media/fontawesome-webfont.fd7873675ac92feb54ea.svg",
     "static/media/reservation-bg.jpg": "/natukodipulav/static/media/reservation-bg.5664da14fe73a430743a.jpg",
@@ -25,11 +25,11 @@
     "static/media/slick.woff": "/natukodipulav/static/media/slick.295183786cd8a1389865.woff",
     "static/media/flexslider-icon.woff": "/natukodipulav/static/media/flexslider-icon.b5aefbb787e9e5f6aa2a.woff",
     "main.d822e2ac.css.map": "/natukodipulav/static/css/main.d822e2ac.css.map",
-    "main.f399d28d.js.map": "/natukodipulav/static/js/main.f399d28d.js.map",
+    "main.e26c5094.js.map": "/natukodipulav/static/js/main.e26c5094.js.map",
     "453.a92a3f22.chunk.js.map": "/natukodipulav/static/js/453.a92a3f22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d822e2ac.css",
-    "static/js/main.f399d28d.js"
+    "static/js/main.e26c5094.js"
   ]
 }
