@@ -250,7 +250,7 @@ function SimpleChatbot() {
         <ChatBot
           steps={steps}
           headerTitle="Chat with us"
-          botAvatar="/assets/images/bakklassy-logo.png"
+          botAvatar="assets/images/bakklassy-logo.png"
           //userAvatar="/assets/images/user-avatar.png"
         />
       </ThemeProvider>

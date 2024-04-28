@@ -27,7 +27,7 @@ function Header() {
             <nav className="main-nav">
               <a href="/" className="logo">
                 <img
-                  src="/assets/images/klassy-logo.png"
+                  src="assets/images/klassy-logo.png"
                   alt="NatukodiPulav logo"
                   align="Natukodi Pulav"
                 />
