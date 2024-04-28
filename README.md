@@ -83,11 +83,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Add the below properties to the package.json file
 
- "homepage": "https://<Username>.github.io/<Repository-name>"
+ "homepage": "https://'Username'.github.io/'Repository-name'"
 
  "scripts":{ \
     "predeploy": "npm run build", \
-    "deploy": "gh-pages -d build" \ 
+    "deploy": "gh-pages -d build"  
    }
 
 
