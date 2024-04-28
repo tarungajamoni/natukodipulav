@@ -85,16 +85,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
  "homepage": "https://<Username>.github.io/<Repository-name>"
 
- "scripts":{
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+ "scripts":{ \
+    "predeploy": "npm run build", \
+    "deploy": "gh-pages -d build" \ 
    }
 
 
 ### Push the code to the branch
 
- git add .
- git commit -m "commit"
+ git add . \
+ git commit -m "commit" \
  git push
 
 
